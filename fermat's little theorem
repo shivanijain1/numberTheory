@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #define ll long long
 using namespace std;
-ll fermat_theorem(ll base,ll power,int m){
+ll fermat_theorem(ll base,ll power,int m){// m is modulo 
     ll res=1;
     while (power){
     if (power%2!=0){
